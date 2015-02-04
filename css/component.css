@@ -63,7 +63,7 @@ html, body { height: 100%; }
 }
 
 .birthday .lower {
-	top: 80%;
+	top: 78%;
 }
 
 .birthday a {
@@ -72,6 +72,13 @@ html, body { height: 100%; }
 	margin-left: 100px;
 	font-size: 2em;
 	color: rgba(0,0,0,0.3);
+}
+
+#link {
+	margin-left: 2px;
+	font-size: 2em;
+	font-weight: 300;
+	color: rgba(0,0,0,0.4);
 }
 
 .long-essay {
