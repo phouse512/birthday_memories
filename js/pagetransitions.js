@@ -85,6 +85,7 @@ var PageTransitions = (function() {
 	}
 
 	function nextPage(options ) {
+
 		var animation = (options.animation) ? options.animation : options;
 
 		if( isAnimating ) {
@@ -415,6 +416,7 @@ var PageTransitions = (function() {
 		endNextPage = false;
 		resetPage( $outpage, $inpage );
 		isAnimating = false;
+		step();
 	}
 
 	function resetPage( $outpage, $inpage ) {

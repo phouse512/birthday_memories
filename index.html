@@ -4,168 +4,398 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>A Collection of Page Transitions</title>
-		<meta name="description" content="A Collection of Page Transitions with CSS Animations" />
-		<meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
-		<meta name="author" content="Codrops" />
+		<title>A Collection of Memories For Esther</title>
+		<meta name="description" content="A Collection of Memories For Esther" />
+		<meta name="keywords" content="memories birthday" />
+		<meta name="author" content="Philip House" />
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/multilevelmenu.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/animations.css" />
-		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+		<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+
 	</head>
 	<body>	
-		<div class="codrops-top clearfix">
-			<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Tutorials/AutomaticFigureNumbering/"><span>Previous Demo</span></a>
-			<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15001"><span>Back to the Codrops Article</span></a></span>
+		<div class="pt-wrapper">
+			<div class="pt-trigger-container pt-triggers ">
+				<!--<button id="iterateEffects" class="pt-touch-button">Show next page transition</button>-->
+				<button data-animation="30" data-goto="-2" class="pt-trigger ptn-touch-button btn btn-4 btn-4d icon-arrow-left">Go Back</button>
+				<button data-animation="1" data-goto="-1" class="pt-trigger ptn-touch-button btn btn-4 btn-4c icon-arrow-right">Keep Going!</button>
+			</div><!-- /triggers -->
+
+			
+			<div class="pt-page pt-page-1">
+				<canvas id="world"></canvas>
+				<h1><span>Happy 22nd Birthday</span><strong>Esther</strong> Lee</h1>
+				
+			</div>
+			<div class="pt-page pt-page-2">
+				<canvas id="world2"></canvas>
+				<h1><span>A collection of</span><strong>Memories</strong> For You</h1>
+			</div>
+			<div class="pt-page pt-page-3">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Tara</strong> Song</h1>
+					<h4 class="extra-long-essay">
+					Estharr!!!!!
+					Ma dear. My, my, what a thoughtful and romantic (in his own way) manfriend you have. :) I am delighted to be a part of this birthday gift that will last forevaaaish. Where else to start, but the beginning? muhahahah... I met you (and Joy) in the summer of 2012 during those Detroit missions trainings (I met Phil for the first time the day you guys left for the trip! Do you remember that, Phil?), and immediately I knew you were among the gentlest of spirits one could ever know. What I did not know, was that, after some coffee dates, pie date, ice cream, fried chicken, car ride conversations, whatever hang outs, hiking/road trip, home-made dinners, and shmancy dinner dates later, we would be as toight as we are now. I am thankful for your giggles and smiles that poke me straight through mi heart; for your loud-ass voice when you'd least expect it and often in quiet places; for your honesty and pointed questions that really keeps a girl (me) straight; for your sharing the same passions for Jesus and compassion for others in need; for your prayers, often aloud (not loud) and in the moment; for your trusting me with oodles of your deepest darkest secrets hahahahah jk, for trusting me to keep you accountable; for giving me the gift of friendship and sisterhood that not anyone can have. I hope your 22nd year is: Pivotal. Grounding. Defining. Restoring. Embracing. &amp; filled with oodles and oodles of love! Happy Birthday Esther. May the Lord continue to bless you oodles and oodles more! I love you so very much! :) &#60;3
+					</h4>
+					<a class="tara-link" href="img/tara.png">~ a visual memory ~</a>
+					<h1 class="lower"><span>Very truly yours, Tara</span></h1>
+				</div>
+			</div>
+			<div class="pt-page pt-page-4">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Christina</strong> Chan</h1>
+					<h4 class="short-essay">
+						HAPPY BIRTHDAY ESTHER!
+						Thank you so so much for being an amazingg housemate :) 
+						(Even if things do get set on fire from time to time) :P
+						But for real, thank you for always being so attentive and willing to listen. It genuinely encourages me to see your heart for God and your heart for people, and how you're always willing to help out. Happy 22! 
+					</h4>
+					<a class="tara-link" href="img/christina.jpg">~A visual memory~</a>
+					<h1 class="lower"><span>Lots of penguin love, Christina </span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-5">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Jane</strong> Kim</h1>
+					<h4 class="medium-long-essay">
+						Dear Esther,
+						I hope this savvy little thing that Phil created for you stays around for a while, and that one day, many years from now, you'll be able to pull it up and be reminded of your days as a young woman in college, all the lives you touched, and the memories you made. I still remember the evening we walked up to Norris early in our freshman year where I ended up sharing my life story with you over a tomato and mozzarella crepe. I had never before experienced the depth of insight and care that you extended to me that night. It was the first time I had shared my testimony with a friend. I've always been so thankful to you for that, and I always will be. 
+					</h4>
+					<a class="tara-link" href="img/jane.jpg">~A visual memory~</a>
+					<h1 class="lower"><span>Love, Jane </span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-6">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Elaine</strong> Cha</h1>
+					<h4 class="long-essay">
+						Greetings, fair maiden.<br />
+
+						How do I love thee? Let me count the ways...
+						Hehe but really, as I reflect on the past four years of our friendship/sisterhood/LOVE, I remember so many things that bring the widest of smiles to my face:<br />
+						Walking together down Sheridan with Jane, singing the 'pizza song.'<br />
+						Studying together on your bed in our beautiful CCI room.<br />
+						Sharing earrings, and watching you apply your elaborate skincare routine (I know it's actually really simple, but it seemed so elaborate to me at the time).<br />
+						Late night snacking, nail-painting, sharing, and ninth hours.<br />
+						Quietly saying 'goodnight,' 'sleep tight,' and 'I love you' every night before falling asleep.<br /><br />
+
+						Not to say that our more memorable moments together aren't important, but I think the little things and moments we've shared together are the memories that I'll cherish the most :3 You are such a treasure and a gem, Esther, and are so, so loved by the people around you. I'm writing you another card, so I shall save some lovin' for that space ;) Happy Birthday, beautiful. 
+					</h4>
+					<a class="tara-link" href="img/elaine.jpg">~A visual memory~</a>
+					<h1 class="lower"><span>All my love, Elaine</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-1">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Joy</strong> Kwak</h1>
+					<h4 class="long-medium-essay">
+						Dear Esther, <br /> <br />
+
+						Happy 22nd Birthday ONESTAR !! (:
+						It's crazy that the 2NE1 (hehe) has passed, and you've aged another year already !
+						....getting older and older BUT also more wiser and wiser ! (;<br />
+						I'm eternally grateful for you and all the ways God has shown His love and grace through you. You really are a special friend to me. Thanks for being a sister I can rely on, and I'm happy we can go through the struggles and celebrate the joys of life together. I'm super excited for the future that awaits !! &#62;&#60;<br /><br />
+						Keep shining like a bright bright STAR and continue to be a light to those around you. (:
+						I LOVE YOUUUU ESTHER !! &#60;3
+					</h4>
+					<a class="tara-link" href="img/joy.jpg">~ a visual memory ~</a>
+					<h1 class="lower"><span>Love, Joy Kwak !</span></h1>
+				</div>
+			</div>
+			<div class="pt-page pt-page-2">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Jessie</strong> Wang</h1>
+					<h4 class="extra-extra-long-essay">
+						Happy 22nd birthday, love! I can't believe how time has flown and how much you have grown since that first dship we had at Lisa's. It's been a great blessing walking these years with you, and I am thankful for you always. I hope this new year will bring many new adventures, much growth, and new discoveries of our Father's love, grace, and plan. :)<br /><br />
+
+						There are so many memories that I hold close to my heart, such as dship on the Lakefill with your mom's cooking, our shopping trips, learning together what it means to enjoy intimacy with our Father in heaven and reminding each other to live by grace, crying together in Norris and Plex basement and my apartment (and many other places, to be honest....), and you showing up with hydrangeas at my door unexpectedly (and texting me pictures of them all the time)! One memory that comes to mind though, even though it is quiet and subtle one, is when we prayed together last year in the observatory. I recall Rich and Kwang also happening to be there, and when we came together to share prayer requests and pray, I looked over at you, and sensed a hesitation about sharing--and knew immediately and exactly why. I think that's just one example of how like-minded and like-hearted we are, and that is a rare thing for me. :) You seem to be able to look into the deep places of my heart when I lacked words to express the things there. Thank you for being there to listen, for loving me, for receiving from me (because that means a lot too!) but most of all, for being yourself. Because you are loved not for what you do, but for who you are. :) <br />
+
+						Esther, I am praying for you, sister. I pray that your love for God and others would only grow with each passing day, and that you would be a sweet fragrance for His name. I am so proud of you! <br />
+
+						Have a very happy birthday!
+					</h4>
+					<h1 class="lower"><span>With love, Jessie </span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-3">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Yitian</strong> Mao</h1>
+					<h4 class="long-medium-essay">
+						“I’m gonna pop some tags…” (I remember when you were in that music video hahaha)<br /><br />
+						 
+						LOL this picture is from one time you visited U of I, and we went to downtown Champaign and had some fun adventures :3 LOL, I also thought of the time I made you take a picture with that one random guy cuz you guys matched at Easter breakfast lololol.. ESTHER !!! HAPPY 22nd BIRTHDAY YOU AWESOME STAR! Wow, another year, another birthday already?? Flashback to 3 years ago when we were freshman, I’m so glad I met you at Lakeview’s Fall Retreat… I remember I liked you right away and wanted to be friends so I always came to visit you with Joy at NU lolol... and boy were my instincts right, because this girl’s a keeper, not only are you a great friend but also an awesome sister in Christ that helps me through tough times and keeps me accountable. Looking forward to our next hangout, let’s bake matcha things!! Have the best day ever or ….죽었어.. ;) jkjkjk LOVE YOU SO MUCHH!
+					</h4>
+					<a class="tara-link" href="img/et.jpg">~A visual memory~</a>
+					<h1 class="lower"><span>Love, ET</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-4">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Julie</strong> Lee</h1>
+					<h4 class="extra-long-essay">
+						Dear Esther,<br /><br />
+
+						Living in Korea, I’ve been actually wondering if I were living with an angel back in Evanston. In my high school years, I prayed that God would provide me with good friends and roommates, and He remembered and answered my prayers! When I saw you (with Sunah) looking for a room on the second floor at Parkes Hall, I never knew that I would be rooming with you. At that first manna, I felt peace. Indeed, my first impression of you was not mistaken. Your peaceful and smiley face is still impressed in my mind. You were also a peacemaker, introducing me to so many awesome people at Northwestern. Most of my close friends are the ones you introduced to me at Plex dining hall. Also, the first question that almost every upperclassman asked me at Focus-AAIV was “WOAH, you’re Esther’s roommate?” I felt so proud and honored. Esther, you are a blessing. You are making a quiet but deep impact in your community! Thank you again for your acts of kindness, your smiles, and your wonderful meals. <br /><br />
+
+						Pursue righteousness, godliness, faith, love, steadfastness, gentleness. Fight the good fight of the faith. Take hold of the eternal life to which you were called and about which you made the good confession in the presence of many witnesses.  -1 Timothy 6:11, 12 
+					</h4>
+					<h1 class="lower"><span>- Julie </span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-5">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Ross</strong> Chu</h1>
+					<h4 class="long-medium-essay">
+						HI ESTHER HAPPY BIRTHDAY!!<br /><br />
+
+						I know it’s kind of out of the blue, but I’m really glad that I got to see you again for one more year before you left for the real world. Although you are my friend, you are also my role model, someone I strive to become like more. Thank you for setting an example to me in many ways (that you probably didn’t even intend to either). 
+						So it’s weird huh?! ure a senior and I’m now an underclassmen  but to me, you’ll always be that cute little esther I remember from freshmen year   
+						I really miss our small group. Although my current small group’s great as well, that freshmen SG was something special to me. We should have a reunion soon  <br />
+
+						Let’s meet up plenty often before you leave, make great memories, then you could peace out I guess. <br /><br />
+
+						Anyways!! HAPPY HAPPY BIRTHDAY and hope today’s fantastic for you!
+					</h4>
+					<a class="tara-link" href="img/ross.jpg">~A visual memory~</a>
+					<h1 class="lower"><span>From Chu Chu</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-6">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Josey</strong> Yun</h1>
+					<h4 class="long-essay">
+						Dearest Esther,<br /><br />
+						I would like to wish you the happiest of happy birthdays to you. Thank you for exemplifying a woman who’s filled with so much wisdom and love for everyone and of course our Lord God. Your smile and sincerity is very contagious, and whenever I get the opportunity to catch up with you and talk about life, I am always very grateful to have met a sister so life-giving and encouraging. I would love to believe that it was truly in God’s plan to place you in my life. So as you gain one more year of age, I hope you can embrace the future with grace, boldness, and most importantly trust in His faithfulness. Also, continue to be the light that you are. We need to always pray to God that we can be salt that never loses its saltiness! Hope you have an awesome day filled with so much happiness and blessings from your friends and family. You are very loved my dear. So very loved. <br /><br />As we spend our last semester or few quarters as college students, let us together do our very best to continue out our sisterhood and awesome friendship. Yes? Okay yay ☺ 
+					</h4>
+					<a class="tara-link" href="img/josey.png">~A visual memory~</a>
+					<h1 class="lower"><span>Josey</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-1">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Samuel</strong> Kim</h1>
+					<h4 class="long-essay">
+						Happy Birthday Esther! I hope your senior year has been going well. I was thinking about the memories that we've had together, and the two that popped into my head both involved our trips to Starved Rock. Our group camping trip before sophomore year started was one of my best memories of college! Remember how we were twins in the group? haha and then we were supposed to trick freshman into thinking that we were cousins but that never worked out because I forgot about the whole thing... I think I got to know you better through camping and going to Starved Rock afterwards! I only realized this now while trying to look for pictures from the trip and realized that you're not in that many pictures... how clever of you to dart away from the camera :P But then we went to Starved Rock again with Phil, Tara, and Josey! That was such a fun trip too! I hope you enjoyed it as much as I did haha, and I also hope that you'll have more adventures in the future! <br /><br />
+						 
+						I wish you the best and lots of open doors, growth, love, and fun as you age one more year! Have a wonderful birthday!
+					</h4>
+					<a class="tara-link" href="img/sam.jpg">~A visual memory~</a>
+					<h1 class="lower"><span>Warmest wishes, Sam</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-2">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Katie</strong> Rim</h1>
+					<h4 class="long-medium-essay">
+						Hi Esther :)<br /><br />
+
+						Happy birthday!!  What can I say…Thank you for everything you've done for me, for all the meals you've cooked and bought, the challenging questions you ask me, the way you remember things I tell you, the way you listen to me share even when I'm talking really fast and can barely follow my own thoughts.  I hope you feel showered in love today and that this coming year - no matter what it holds, with all its surprises and mysteries and newness - is one full of blessings, growth and fulfillment.  Love you!<br /> <br />  
+
+						P.S: When I have to think of memories of the two of us, the first one that pops into my head is me hiding from you (and your supposed boyfriend) at Marshalls (LOL). To think our friendship could have started on that day.
+					</h4>
+					<a class="tara-link" href="img/katie.jpg">~A visual memory~</a>
+					<h1 class="lower"><span>Katie</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-3">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Daniel</strong> Yoo</h1>
+					<h4 class="medium-essay">
+						Happy Birthday Esther! <br /><br />Thank you for being so welcoming when I first arrived to Lakeview and for continually being supportive through out the years I have been here. You are truly a warm and caring person that has helped me through some tough times. I thank you for what you have done for others as well for giving guidance and just the support you provide even when your schedule could be hectic at times. I hope you have a wonderful birthday on this joyous occasion and continue to walk the path with God. 
+					</h4>
+					<h1 class="lower"><span>Blessings, Daniel Yoo</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-4">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Helen</strong> Zhang</h1>
+					<h4 class="medium-essay">
+						Esther~~Happy Birthday to the best discipler I can ask for!<br /><br /> I’m so blessed to have met you at the AAIV house party freshman year haha. It’s been amazing to share this journey of growth with you for the past three years. I really appreciate how encouraging and supportive you always are, but I also love how you can be so silly and teasing too  You’ve made dship so fun hehe  You have such a beautiful soul~ Hope you have a fantastic birthday and I pray that you’ll continue to walk closer with Christ.
+					</h4>
+					<a class="tara-link" href="img/helen.jpg">~A visual memory~</a>
+					<h1 class="lower"><span>I love you~~</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-5">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Natalie</strong> Kim</h1>
+					<h4 class="long-medium-essay">
+						Hi Hi  I see you everyday. But today is a special day because it is your BIRTHDAY!! Esther, I wanted to say that I am very grateful for your kindness and care as my roommate. I am very very glad that I found this Spirit-of-God-filled house and that I got to get closer to you! I honestly am so happy with my housing situation this quarter, thanks to you, Christina, and Yitian. Altho we had the fire incident a couple of days ago, I think we bonded much more through that experience. However, I am excited to get to know you even better! Let's have more talks in the midst of our busy lives. I want to hear more about your dreams and concerns and stories! And I hear that you are a good listener, too, according to Josh lol.<br />
+						You might catch my grammar mistakes here and there, but bear with me, as I am a slow but continuous learner. You might find out more about my weirdness, too, as time goes by. Be prepared  I love that yummy foods just appear in our house; I love it!  I like cooking when I have time and I shall learn from you, Chef Lee. I am writing this right in front of you as you are working so hard (or maybe looking up recipes hard..?) as I am eating the chocolate zucchini bread hehehe. Hope your midterm went well (by the time you read this because you said you have a midterm on your bday) and hope you have/had a wonderful 22nd BIRTHDAY!
+					</h4>
+					<h1 class="lower"><span>Love ya, Natalie</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-6">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Yuri</strong> Han</h1>
+					<h4 class="short-essay">
+						dearest esther, happy 22nd birthday!<br /><br /> you are such a beautiful person inside and out, and i hope you have a fantastic day today. thank you for always being such a friendly face at lakeview. we still have to go to noraebang sometime with grace!!!!
+					</h4>
+					<h1 class="lower"><span>lots of love, yuri</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-1">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Suzie</strong> Kil</h1>
+					<h4 class="long-essay">
+						Happy Birthday Esther :) <br /><br />
+						I’m so happy that you were born 22 years ago today… <br />
+						And so grateful that our paths crossed 3-4 years ago  :) <br />
+						You are one person with such a BIG heart for God and His ministry and I have no doubt that He will use you to heal, touch and impact the lives of the many people you will meet in the future. I, for one, was always very touched by your maturity, warmth and love for people and your glowing smile was always super contagious and would brighten my day:) I’m so excited to see how the next chapter of your life, as you get ready to leave college and enter “the real world,” will look like! And if there’s anything I can help out with along the way please let me know! This is a SUPER random side note…but remember that one day we hung out during winter break? And we went to go watch that movie with Song Joong Ki and had bubble tea afterwards? Hahaha that’s probably one of my favorite memories of us and I miss spending time with you Esther!! I really hope we can meet up and chat sometime in the near future:) <br /><br />
+						Thank you for being such a warm, happy memory in my life! And happy birthday again Esther!  
+					</h4>
+					<h1 class="lower"><span>-Sooze</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-2">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Bethany</strong> Ao</h1>
+					<h4 class="medium-essay">
+						Hi Esther! Happy birthday :) <br /><br /> I am so glad to have gotten to know you better this year through WG and I hope you know that you are such a blessing to everyone around you. You are such a compassionate and loving person and also surprisingly sassy hehe.  I hope that as you grow older, you also grow wiser and closer to God, and I know that He has big plans for you in the near future! Always remember that even if the future may seem hazy at times, God has everything under control. Thanks for being such a blessing to me and everyone else in WG and I hope that you have a lovely birthday celebrating with those close to you!
+					</h4>
+					<h1 class="lower"><span>Bethany</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-4">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Keith</strong> Kim</h1>
+					<h4 class="short-essay">
+						 Hi Esther! Happy birthday!<br /><br /> It was awesome getting to know you just a little better through FG this year! You're always a blessing to have in our FG and I know that God will use your age 22 days to bless even more people. Haha the aging has begun! May God continue to give you opportunities to grow!
+					</h4>
+					<h1 class="lower"><span>Keith</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-5">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Mina</strong> Piao</h1>
+					<h4 class="extra-extra-long-essay">
+						Dear Esther (aka da bestest fg leader in da House heh heh heh)<br /><br />
+
+						First off. HAPPY 22nd BIRTHDAY! I still remember discussing your 21st in Norris, and you sharing with me that hilarious freshman year experience surrounding going out and your indifference to alcohol. Then skipping forward in time and you wanting to order wine at Tapas. HAHA. Trying to make a delinquent out of me. Tsk. 
+						Anywayz. Moving on to the real feelz.<br />
+
+						How do I put into a brief letter how much you've impacted my Northwestern experience? I don't think I'll be able to fully appreciate or understand everything that you've invested in your first ever freshman family group. Because you being you, you never asked for acknowledgement of any kind. You took out time to bake goodies for us, shared parts of your life and your self you didn't have to, trekked all over everywhere to give us goodie bags when you definitely had more important things to do, and were always there despite our obnoxiousness and flakiness...all during what was probably the busiest time of your school career. 
+						The time, energy, compassion and vulnerability that you shared and continue to share with us, with me, take on more and more meaning as my time at Northwestern increases and I realize...dang. It's so hard to be open with people when yes, we may be growing, but yes, many of us are at our most uncertain and judgmental. And dang, it's even harder to invest time and energy into people you hardly know.<br />
+
+						Thank you Esther for our 1 on 1s, your constant willingness to make yourself uncomfortable for my sake and FOR DECIDING TO BE A FAMILY GROUP LEADER (even though who knew your fg would be so sassy)! I feel sorry for those popo freshies who weren't able to get "The Esther Lee Experience."<br />
+
+						In the meantime, ENJOY THIS BIRTHDAY CAUSE YOU'RE FEELIN 22~<br /><br />
+
+						I hope that Philip's treating you right because he is way way way way (did I mention way) lucky. I hope you celebrate your birfday in your version of AMAZING~ cause you da empress (I felt empress was fitting seeing as you gave birth to the queen (me), the princess (Eugin) and the slave (Philip)). 
+					</h4>
+					<h1 class="lower"><span>I love you and appreciate you because how can anyone not, Mina</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-6">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Suchan</strong> Oh</h1>
+					<h4 class="short-essay">
+						olleh rehtse. ti si ruoy yadhtrib. yppah yadhtrib. eveileb ti ro ton, s'ti yllautca ytterp drah ot epyt sdrawkcab os ll'i peek ti trohs. i kniht uoy era a repus dar nosrep dna t'nseod diarfa fo gnihtyna. i llahs syawla kool ckab yldnof no ruo werc serutnevda rehtegot sa llew sa ruo peed sgnisum ni naissur til (ruoy sgnisum, ym gnipeels). yppah dn22 rehtse, i epoh uoy evah a ylurt laiceps yad ):
+					</h4>
+					<h1 class="lower"><span>Suchan</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-1">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Sunhee</strong> Han</h1>
+					<h4 class="short-essay">
+						Dearest Esther,   Happy Birthday!! I am so happy to have a lovely, compassionate HDPS role model and almost-fam group leader! You are such a kind (yet sometimes sassy) individual, and you are so very loved by those around you :) I hope your birthday is wonderful and full of laughter and yummy things and people you love, because you deserve it! 
+					</h4>
+					<h1 class="lower"><span>Love, Sunny</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-2">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Jeanne</strong> Hou</h1>
+					<h4 class="long-medium-essay">
+						Hi Esther!! Happy birthday you wonderful wonderful sister. I am so grateful to have met you early on in my freshman year. I don't remember how or when, but I do know that I am eternally grateful for the love you have shown me over the years. Thank you for all the meals, all the talks, all the hugs, and all the hand-holdings you have showered me with in the past two years. Thank you for being so happy and so open with your heart. I will forever remember Cedar 2013 and Neighborhood meetings. I pray that as you graduate, you look forward with your pretty smile and optimism and bless those around you with the love of God! :) Although I'm really sad that you'll be graduating, and a part of my brain refuses to believe you're really a senior, I will definitely cherish the remaining months! HAPPY BIRTHDAY ESTHER! Have a fantastic birthday :)
+					</h4>
+					<a class="tara-link" href="img/jeanne.jpg">~ a visual memory ~</a>
+					<h1 class="lower"><span>Love, Jeanne</span></h1>
+				</div>
+			</div>
+			<div class="pt-page pt-page-3">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Jenny</strong> Park</h1>
+					<h4 class="long-medium-essay">
+						Hi Esther!!!!<br />
+						Happy 22nd birthday :) I am sad I won't be able to celebrate it with you but I hope you have a lovely day. You are one of the sweetest people I've met at Northwestern and I am really glad I got to know you better through Women's Group and Amase.
+						I love how you are always so sincere and thoughtful. You are so pleasant to be around and I enjoy your presence heh. <br /><br />
+
+						I hope that you have a wonderful 22nd year filled with peace, love, and other happy things because you deserve it :) I also hope that the rest of senior year goes well! <br /><br />
+
+						Have a wonderful day :)
+					</h4>
+					<h1 class="lower"><span>- Jenny</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-4">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Joshua</strong> Lee</h1>
+					<h4 class="medium-essay">
+						Happy 22nd Birthday Esther!<br /><br />
+						I am tremendously blessed to be your friend and to grow with you while I was in college. You're like a real older sister to me and I really appreciate that. You are one of the few people that I really trust with a lot of my baggage. Thanks for being so present in my life! And enjoy a great 22nd birthday :)
+					</h4>
+					<h1 class="lower"><span>Joshua</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-5">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Jireh</strong> Kang</h1>
+					<h4 class="medium-long-essay">
+						HAPPY BIRTHDAY ESTHER!!!<br />
+						Esther, I am so glad that I have gotten to know you the past couple years! I feel that you are such a positive influence in so many people's lives, and I thank God so much that you are on this Earth, in Northwestern, in AAIV, and in Lakeview. I hope to get to know you more as we do womens group together for the rest of this quarter! Lets have a bonding time soon to not only think more about how to serve God through women's group but also to just get to know more about each other as sisters in Christ!!!!! :) 
+						Love you and appreciate you and respect you very much! 
+					</h4>
+					<h1 class="lower"><span>- Jireh</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-6">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Phil</strong> Lan</h1>
+					<h4 class="extra-long-essay">
+						Hey Esther,<br /> I can't believe that a little more than a year ago I met you at your place for the freshmen joint south campus family group dinner. Since then I have had the honor to be a member of your family group and cherish your effort and thought you put into us. This might seem more like a thank you letter than a birthday letter but I just wanted to highlight why you've been such an important part of my walk here at Northwestern. As a family group leader myself, though not of freshmen, I can empathize with how you might have felt as you served and all the time you put into creating a community for the flaky sassy group we were. Thank you for inviting me to your place and cooking me meals and getting to know me, I know now how easy it is to get sucked up into your own Northwestern experience and not reach out to freshmen. Thank you for coming out to my orchestra concert fall quarter. I never had the support of friends like I did that day and although I didn't join you at koi afterwards to hear your love story ;) it meant a lot to see people from family group there! Thank you for all the baked goodies and goody bags during reading week. The personalized cards must have taken forever to write. Thank you for your perseverance to the end. Though people came and went you were always there, week to week, willing to share a meal with us. Thank you for inviting me to be a part of your community and creating special at shepard last year. I hope you have a wonderful 22nd birthday and a great senior year. Hope to catch up with you soon, even though it's already been more than a quarter. 
+					</h4>
+					<h1 class="lower"><span>Best, Phil</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-1">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Eugin</strong> Lee</h1>
+					<h4 class="extra-long-essay">
+						HIIIII ESTHER! HAPPY 22ND BIRTHDAY! 
+						I hope you have a lovely day today celebrating this special occasion! I sort of know that you will have an amazing day today even from Phil's idea of creating a website for ya ehehhe. ITS SO CUTE klsjflekaflwkeaf ;D. Thank you so much for being such a crucial part of my Northwestern life, especially fall quarter of freshman year. I still remember meeting you at your apartment when you and Paul hosted a dinner party for AAIV in the beginning o the quarter, and honestly, if it weren't for you, I don't know if I would have known about family group and have been plugged into this amazing AAIV community. I think I'll have to thank you and God eternally for that! You are such a kind-hearted, caring, sweet soul and esther-you truly make others feel so comfortable and so loved when theyre around you. I really think God has given you this special talent of reaching out to others and making people feel accepted and loved and I'm so excited to see God use you in the future to do amazing things in this world. Thank you for always being there for me to talk about my relationship with God, my concerns/doubts about my faith/life/whatever and simply for caring. As you may or may not remember, fall quarter freshman year wasn't the easiest transition for me and it really meant a lot to me when you took me out for brunch on my birthday hehe. and I can't believe that was already a year and a half ago! It's been a crazy ride at Northwestern so far, but thank you for being such a blessing to me so far! Again, happy birthday! We should do more phil x2 + double-E things in the future hehe. maybe also baking sessions with the other family group girls? (i really miss your cupcakes and baked goods you used to bring to fam group). Love you Esther!  
+					</h4>
+					<h1 class="lower"><span>- Eugin</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-2">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Annie</strong> Cho</h1>
+					<h4 class="short-essay">
+						Happy happy birthday, Esther!  I hope you have a wonderful birthday full of blessings. Thank you for presenting the opportunity/encouraging me to serve God through discipleship. It has always been so encouraging, motivating, and challenging to see how God is using you to bring Him glory. Thank you for all that you do behind the scenes.  Have a fantastic birthday.
+					</h4>
+					<h1 class="lower"><span>Annie</span></h1>	
+				</div>
+			</div>
+			<div class="pt-page pt-page-3">
+				<div class="birthday">
+					<h1><span>From: </span><strong>Franklin</strong> Chan</h1>
+					<h4 class="short-essay">
+						Hi Esther, remember the time that I dragged you and Phil out to the lakefill to help me film a birthday video for my (not in a possessive kinda way obviously :P) Esther? Well, minus the lakefill and filming and all that fun stuff, I figured it's my turn to return the favor. Happy birthday! Hope senior year has been going well for you and that you are enjoying every single moment of it. Cherish it because the days sure do fly by.
+					</h4>
+					<h1 class="lower"><span>God bless, Franklin</span></h1>	
+				</div>
+			</div>
 		</div>
 
-		<div class="pt-triggers">
-			<button id="iterateEffects" class="pt-touch-button">Show next page transition</button>
-			<div id="dl-menu" class="dl-menuwrapper">
-				<button class="dl-trigger">Choose a transition</button>
-				<ul class="dl-menu">
-					<li>
-						<a href="#">Move</a>
-						<ul class="dl-submenu">
-							<li data-animation="1"><a href="#">Move to left/ from right</a></li>
-							<li data-animation="2"><a href="#">Move to right/ from left</a></li>
-							<li data-animation="3"><a href="#">Move to top/ from bottom</a></li>
-							<li data-animation="4"><a href="#">Move to bottom/ from top</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Fade</a>
-						<ul class="dl-submenu">
-							<li data-animation="5"><a href="#">Fade / from right</a></li>
-							<li data-animation="6"><a href="#">Fade / from left</a></li>
-							<li data-animation="7"><a href="#">Fade / from bottom</a></li>
-							<li data-animation="8"><a href="#">Fade / from top</a></li>
-							<li data-animation="9"><a href="#">Fade left / Fade right</a></li>
-							<li data-animation="10"><a href="#">Fade right / Fade left</a></li>
-							<li data-animation="11"><a href="#">Fade top / Fade bottom</a></li>
-							<li data-animation="12"><a href="#">Fade bottom / Fade top</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Different easing</a>
-						<ul class="dl-submenu">
-							<li data-animation="13"><a href="#">Different easing / from right</a></li>
-							<li data-animation="14"><a href="#">Different easing / from left</a></li>
-							<li data-animation="15"><a href="#">Different easing / from bottom</a></li>
-							<li data-animation="16"><a href="#">Different easing / from top</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Scale</a>
-						<ul class="dl-submenu">
-							<li data-animation="17"><a href="#">Scale down / from right</a></li>
-							<li data-animation="18"><a href="#">Scale down / from left</a></li>
-							<li data-animation="19"><a href="#">Scale down / from bottom</a></li>
-							<li data-animation="20"><a href="#">Scale down / from top</a></li>
-							<li data-animation="21"><a href="#">Scale down / scale down</a></li>
-							<li data-animation="22"><a href="#">Scale up / scale up</a></li>
-							<li data-animation="23"><a href="#">Move to left / scale up</a></li>
-							<li data-animation="24"><a href="#">Move to right / scale up</a></li>
-							<li data-animation="25"><a href="#">Move to top / scale up</a></li>
-							<li data-animation="26"><a href="#">Move to bottom / scale up</a></li>
-							<li data-animation="27"><a href="#">Scale down / scale up</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Rotate</a>
-						<ul class="dl-submenu">
-							<li>
-								<a href="#">Glue</a>
-								<ul class="dl-submenu">
-									<li data-animation="28"><a href="#">Glue left / from right</a></li>
-									<li data-animation="29"><a href="#">Glue right / from left</a></li>
-									<li data-animation="30"><a href="#">Glue bottom / from top</a></li>
-									<li data-animation="31"><a href="#">Glue top / from bottom</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Flip</a>
-								<ul class="dl-submenu">
-									<li data-animation="32"><a href="#">Flip right</a></li>
-									<li data-animation="33"><a href="#">Flip left</a></li>
-									<li data-animation="34"><a href="#">Flip top</a></li>
-									<li data-animation="35"><a href="#">Flip bottom</a></li>
-								</ul>
-							</li>
-							<li data-animation="36"><a href="#">Fall</a></li>
-							<li data-animation="37"><a href="#">Newspaper</a></li>
-							<li>
-								<a href="#">Push / Pull</a>
-								<ul class="dl-submenu">
-									<li data-animation="38"><a href="#">Push left / from right</a></li>
-									<li data-animation="39"><a href="#">Push right / from left</a></li>
-									<li data-animation="40"><a href="#">Push top / from bottom</a></li>
-									<li data-animation="41"><a href="#">Push bottom / from top</a></li>
 
-									<li data-animation="42"><a href="#">Push left / pull right</a></li>
-									<li data-animation="43"><a href="#">Push right / pull left</a></li>
-									<li data-animation="44"><a href="#">Push top / pull bottom</a></li>
-									<li data-animation="45"><a href="#">Push bottom / pull top</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Fold / Unfold</a>
-								<ul class="dl-submenu">
-									<li data-animation="46"><a href="#">Fold left / from right</a></li>
-									<li data-animation="47"><a href="#">Fold right / from left</a></li>
-									<li data-animation="48"><a href="#">Fold top / from bottom</a></li>
-									<li data-animation="49"><a href="#">Fold bottom / from top</a></li>
-									<li data-animation="50"><a href="#">Move to right / unfold left</a></li>
-									<li data-animation="51"><a href="#">Move to left / unfold right</a></li>
-									<li data-animation="52"><a href="#">Move to bottom / unfold top</a></li>
-									<li data-animation="53"><a href="#">Move to top / unfold bottom</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Room</a>
-								<ul class="dl-submenu">
-									<li data-animation="54"><a href="#">Room to left</a></li>
-									<li data-animation="55"><a href="#">Room to right</a></li>
-									<li data-animation="56"><a href="#">Room to top</a></li>
-									<li data-animation="57"><a href="#">Room to bottom</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Cube</a>
-								<ul class="dl-submenu">
-									<li data-animation="58"><a href="#">Cube to left</a></li>
-									<li data-animation="59"><a href="#">Cube to right</a></li>
-									<li data-animation="60"><a href="#">Cube to top</a></li>
-									<li data-animation="61"><a href="#">Cube to bottom</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Carousel</a>
-								<ul class="dl-submenu">
-									<li data-animation="62"><a href="#">Carousel to left</a></li>
-									<li data-animation="63"><a href="#">Carousel to right</a></li>
-									<li data-animation="64"><a href="#">Carousel to top</a></li>
-									<li data-animation="65"><a href="#">Carousel to bottom</a></li>
-								</ul>
-							</li>
-							<li data-animation="66"><a href="#">Sides</a></li>
-						</ul>
-					</li>
-					<li data-animation="67"><a href="#">Slide</a></li>
-				</ul>
-			</div><!-- /dl-menu-wrapper-->
-		</div><!-- /triggers -->
 
-		<div id="pt-main" class="pt-perspective">
-			<div class="pt-page pt-page-1"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-			<div class="pt-page pt-page-2"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-			<div class="pt-page pt-page-3"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-			<div class="pt-page pt-page-4"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-			<div class="pt-page pt-page-5"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-			<div class="pt-page pt-page-6"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-		</div>
 
 		<div class="pt-message">
 			<p>Your browser does not support CSS animations.</p>
@@ -173,6 +403,124 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/jquery.dlmenu.js"></script>
-		<script src="js/pagetransitions.js"></script>
+		<script src="js/transition.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript">
+			var COLORS, Confetti, NUM_CONFETTI, PI_2, canvas, confetti, context, drawCircle, i, range, resizeWindow, xpos;
+
+			NUM_CONFETTI = 400;
+			COLORS = [[85, 71, 106], [174, 61, 99], [219, 56, 83], [244, 92, 68], [248, 182, 70]];
+			PI_2 = 2 * Math.PI;
+			canvas = document.getElementById("world");
+			context = canvas.getContext("2d");
+			window.w = 0;
+			window.h = 0;
+
+			resizeWindow = function() {
+			  window.w = canvas.width = window.innerWidth;
+			  return window.h = canvas.height = window.innerHeight;
+			};
+
+			window.addEventListener('resize', resizeWindow, false);
+
+			window.onload = function() {
+			  return setTimeout(resizeWindow, 0);
+			};
+
+			range = function(a, b) {
+			  return (b - a) * Math.random() + a;
+			};
+
+			drawCircle = function(x, y, r, style) {
+			  context.beginPath();
+			  context.arc(x, y, r, 0, PI_2, false);
+			  context.fillStyle = style;
+			  return context.fill();
+			};
+
+			xpos = 0.5;
+
+			document.onmousemove = function(e) {
+			  return xpos = e.pageX / w;
+			};
+
+			window.requestAnimationFrame = (function() {
+			  return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function(callback) {
+			    return window.setTimeout(callback, 1000 / 60);
+			  };
+			})();
+
+			Confetti = (function() {
+			  function Confetti() {
+			    this.style = COLORS[~~range(0, 5)];
+			    this.rgb = "rgba(" + this.style[0] + "," + this.style[1] + "," + this.style[2];
+			    this.r = ~~range(2, 6);
+			    this.r2 = 2 * this.r;
+			    this.replace();
+			  }
+
+			  Confetti.prototype.replace = function() {
+			    this.opacity = 0;
+			    this.dop = 0.03 * range(1, 4);
+			    this.x = range(-this.r2, w - this.r2);
+			    this.y = range(-20, h - this.r2);
+			    this.xmax = w - this.r;
+			    this.ymax = h - this.r;
+			    this.vx = range(0, 2) + 8 * xpos - 5;
+			    return this.vy = 0.7 * this.r + range(-1, 1);
+			  };
+
+			  Confetti.prototype.draw = function() {
+			    var _ref;
+			    this.x += .6*this.vx;
+			    this.y += .6*this.vy;
+			    this.opacity += this.dop;
+			    if (this.opacity > 1) {
+			      this.opacity = 1;
+			      this.dop *= -1;
+			    }
+			    if (this.opacity < 0 || this.y > this.ymax) {
+			      this.replace();
+			    }
+			    if (!((0 < (_ref = this.x) && _ref < this.xmax))) {
+			      this.x = (this.x + this.xmax) % this.xmax;
+			    }
+			    return drawCircle(~~this.x, ~~this.y, this.r, this.rgb + "," + this.opacity + ")");
+			  };
+
+			  return Confetti;
+
+			})();
+
+			confetti = (function() {
+			  var _i, _results;
+			  _results = [];
+			  for (i = _i = 1; 1 <= NUM_CONFETTI ? _i <= NUM_CONFETTI : _i >= NUM_CONFETTI; i = 1 <= NUM_CONFETTI ? ++_i : --_i) {
+			    _results.push(new Confetti);
+			  }
+			  return _results;
+			})();
+
+			window.step = function() {
+			  var c, _i, _len, _results;
+			  requestAnimationFrame(step);
+			  context.clearRect(0, 0, w, h);
+			  _results = [];
+			  for (_i = 0, _len = confetti.length; _i < _len; _i++) {
+			    c = confetti[_i];
+			    _results.push(c.draw());
+			  }
+			  return _results;
+			};
+
+			step();
+
+			$(document).ready(function(){
+				$('.tara-link').magnificPopup({ 
+				  type: 'image'
+					// other options
+				});
+			});
+		</script>
 	</body>
 </html>
