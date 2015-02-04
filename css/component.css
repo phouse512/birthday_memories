@@ -78,6 +78,8 @@ html, body { height: 100%; }
 	font-size: .9em;
 }
 
+
+
 .extra-long-essay {
 	font-size: .85em;
 }
@@ -206,6 +208,16 @@ html, body { height: 100%; }
 .pt-page h1 strong {
 	font-weight: 800;
 	color: rgba(0,0,0,0.3);
+}
+
+#love {
+	top: 20%;
+	font-size: 2em;
+}
+
+#love span {
+	margin-left: -5px;
+	font-size: 2em;
 }
 
 .pt-page-1 {
