@@ -20,8 +20,8 @@
 		<div class="pt-wrapper">
 			<div class="pt-trigger-container pt-triggers ">
 				<!--<button id="iterateEffects" class="pt-touch-button">Show next page transition</button>-->
-				<button data-animation="30" data-goto="-2" class="pt-trigger ptn-touch-button btn btn-4 btn-4d icon-arrow-left">Go Back</button>
-				<button data-animation="1" data-goto="-1" class="pt-trigger ptn-touch-button btn btn-4 btn-4c icon-arrow-right">Keep Going!</button>
+				<button id="prevpage" data-animation="30" data-goto="-2" class="pt-trigger ptn-touch-button btn btn-4 btn-4d icon-arrow-left">Go Back</button>
+				<button id="nextpage" data-animation="1" data-goto="-1" class="pt-trigger ptn-touch-button btn btn-4 btn-4c icon-arrow-right">Keep Going!</button>
 			</div><!-- /triggers -->
 
 			
@@ -527,6 +527,14 @@
 				  type: 'image'
 					// other options
 				});
+
+		        $("body").keydown(function(e) {
+           			if(e.keyCode == 37) { // left
+                		$("#prevpage").trigger("click");
+           			} else if(e.keyCode == 39) { // right
+                		$("#nextpage").trigger("click");
+           			}
+      			});
 			});
 		</script>
 	</body>
